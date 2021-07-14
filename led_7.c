@@ -28,8 +28,9 @@ unsigned char Shoe[10][8]={
 void loop()
 {
   int i=0;
-  int j;
+  int j=0;
   j=Serial.read();
+  j=j-'0';
   {   for(i=0;i<10;i++)
     {
      
